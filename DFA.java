@@ -1,18 +1,4 @@
-package csen1002.main.task1;
-
-/**
- * Write your info here
- * 
- * @name Salma Elzeky
- * @id 43-5917
- * @labNumber 13
- */
 public class DFA {
-	/**
-	 * DFA constructor
-	 * 
-	 * @param description is the string describing a DFA
-	 */
 	String[] RestOfNodesAfterSplitting;
 	String[] GoalStatesAfterSplitting;
 
@@ -25,13 +11,6 @@ public class DFA {
 		GoalStatesAfterSplitting = GoalStates[1].split(",");
 
 	}
-
-	/**
-	 * Returns true if the string is accepted by the DFA and false otherwise.
-	 * 
-	 * @param input is the string to check by the DFA.
-	 * @return if the string is accepted or not.
-	 */
 	public boolean run(String input) {
 		// TODO Write Your Code Here
 		String[] ToTheNextStateInput = input.split("");
